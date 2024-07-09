@@ -74,4 +74,111 @@ p{
 #para{
     text-align: justify;
 }
-
+.about {
+    background-color: rgb(53, 23, 23);
+    padding: 60px 0;
+}
+.about-image {
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 400px;
+    /* border: 5px solid rgb(78, 45, 45); Burgundy border */
+}
+.about-content h2 {
+    font-weight: lighter;
+    color: rgb(236, 236, 236); /* Burgundy text */
+    margin-bottom: 20px;
+}
+.about-content p {
+    font-weight: lighter;
+    color: #ffffff; /* Dark text for readability */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.btn-read-more {
+    background-color: rgb(78, 45, 45); /* Burgundy button */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+.btn-read-more:hover {
+    background-color: #6a3c3c; /* Slightly darker burgundy on hover */
+}
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+.footer .text-uppercase {
+    font-weight: bold;
+    color: rgb(78, 45, 45); /* Burgundy text */
+}
+.footer a {
+    color: rgb(78, 45, 45); /* Burgundy links */
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #6a3c3c; /* Slightly darker burgundy on hover */
+    text-decoration: underline;
+}
+.footer .border-bottom {
+    border-bottom: 1px solid rgb(78, 45, 45); /* Burgundy border */
+}
+.footer .p-4 {
+    padding: 1rem 0; /* Reduce padding for a sleeker look */
+}
+.footer i {
+    color: rgb(78, 45, 45); /* Burgundy icons */
+}
+.footer .me-3 {
+    margin-right: 1rem; /* Space between icons and text */
+}
+.footer .fw-bold {
+    font-weight: bold;
+}
+@media screen and (max-width:400px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 400px;
+        padding: 0;
+    }
+    nav{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+    .banner{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+    #freshinstore{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+    .raja{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+    .explore{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+    .about{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+    .footer{
+        width: 400px;
+        padding: 0px;
+        margin: 0;
+    }
+}
