@@ -5,3 +5,7 @@ The Royal Jutti Co. website serves as an online portfolio and e-commerce platfor
 - **HTML5**
 - **CSS3**
 - **Bootstrap**
+
+### Hosted Link
+- You can view the live website here: https://ryana265.github.io/Royal_Jutti_Co/
+
